@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function money(){
+          let a=prompt('Введи свою зарплату',125000);
+            if (a <100000){
+                let b=a*35/100;
+                return(a-b);
+            } 
+            else if (a>100000){
+                let b=a*45/100;
+                return(a-b);
+            }
+           }
+        alert('Ваша зарплата' +' '+ money()+' рублей');
+        </script>   
+        
+</body>
+</html>  
+    
